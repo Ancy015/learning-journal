@@ -1,0 +1,20 @@
+# Java build artifacts
+*.class
+*.log
+
+# IDE directories and files
+/.idea/
+/.vscode/
+*.iml
+
+# Build directories
+/bin/
+/target/
+/out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tmp
