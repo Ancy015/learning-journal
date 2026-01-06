@@ -1,16 +1,14 @@
-class PrincpleInterest {
-
+class VowelConsonant {
     public static void main(String args[]) {
 
-        double Principal = 40000;
-        int Rate = 5;
-        int Time = 2;
+        char ch = 'A';   // Hardcoded input
 
-        double Amount = Principal * Math.pow((1 + (double) Rate / 100), Time);
-        double CompoundInterest = Amount - Principal;
+        if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' ||
+            ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
 
-        System.out.println("compound interest=" + CompoundInterest);
+            System.out.println(ch + " is a Vowel");
+        } else {
+            System.out.println(ch + " is a Consonant");
+        }
     }
 }
-
-
