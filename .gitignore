@@ -1,4 +1,0 @@
-# Ignore compiled Java classes and common build dirs
-*.class
-bin/
-target/
