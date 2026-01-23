@@ -1,16 +1,17 @@
-public class day32 {
+public class day33 {
 
-    static void checkPalindrome(int number) {
+    
+    public static void checkPalindrome(int number) {
         int original = number;
-        int reverse = 0;
-
-        while (number > 0) {
+        int reversed = 0;
+        
+        while (number != 0) {
             int digit = number % 10;
-            reverse = reverse * 10 + digit;
+            reversed = reversed * 10 + digit;
             number = number / 10;
         }
-
-        if (original == reverse) {
+        
+        if (original == reversed) {
             System.out.println(original + " is a Palindrome Number");
         } else {
             System.out.println(original + " is not a Palindrome Number");
@@ -18,7 +19,8 @@ public class day32 {
     }
 
     public static void main(String[] args) {
-        int num = 121; // hardcoded number
-        checkPalindrome(num);
+        int number = 121; 
+        checkPalindrome(number);
     }
 }
+

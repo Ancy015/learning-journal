@@ -26,5 +26,3 @@ public class PrimeNumberCheck {
         }
     }
 }
-
-day
